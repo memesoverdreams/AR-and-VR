@@ -35,13 +35,10 @@ grecaptcha.execute('6Ld-PIUUAAAAAEJYze-W9mHuhw_5RciQOXq3g1T_', {action: 'action_
     <form action="action.html" method="post">
         <!-- Currently not working. 405 Error. Not sure how to fix. -->
     <article class="c form">
-        
-    <h2>Date and Time</h2>
-        <!-- Add what time they are booking the escape room for -->
     <script>
         var escapeRoom = document.getElementById("test")
         if (escapeRoom == "Select"){
-            alert("Please select an escape room.")
+            alert("Please select a product.")
         }    
     </script>
     <div class="flex-container">
@@ -55,9 +52,7 @@ grecaptcha.execute('6Ld-PIUUAAAAAEJYze-W9mHuhw_5RciQOXq3g1T_', {action: 'action_
         </select>
         <input class="label-input-container tworow" type="date" name="date" required>
     </div>
-        <h2>Choose Time</h2>
-        <div id="table-times"></div>
-    <h2>Participant Information</h2>
+    <h2>Your Information</h2>
     <div class="flex-container">
         <div class="label-input-container tworow">
             <label>First Name</label>
@@ -68,29 +63,14 @@ grecaptcha.execute('6Ld-PIUUAAAAAEJYze-W9mHuhw_5RciQOXq3g1T_', {action: 'action_
             <input class="" name="Last name" type="text" id="require" required>
         </div>
     </div>
-     <label>How many people will be coming to our escape room? (You can only have a max of 24 people per booking, peope will be seperated into two different rooms.)</label>
+     <label>How many products? (Only 10 per order)</label>
     <input class="tworow" type="number" name="number" id="number" onchange="handleChange(this);"></input>
     <script>
   function handleChange(input) {
     if (input.value < 1) input.value = 1;
-    if (input.value > 24) input.value = 24;
+    if (input.value > 10) input.value = 10;
   }
 </script><br>
-    <div class="flex-container">
-        <div class="label-input-container threerow">
-            <label>Children (5 - 12):</label>
-            <input type="number" min="1" max="10">
-        </div>
-        <div class="label-input-container threerow">
-            <label>Adults (13 - 64):</label>
-            <input type="number" min="1" max="10">
-        </div>
-        <div class="label-input-container threerow">
-            <label>Seniors (65+):</label>
-            <input type="number" min="1" max="10">
-        </div>
-    </div>
-    <p>*Please note that children below the age of 5 will not be admitted for safety reasons.</p>
     <h2>Contact Information</h2>
     <div class="flex-container">
         <div class="label-input-container tworow">
