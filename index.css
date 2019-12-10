@@ -1,5 +1,5 @@
 * {
-	font-family: 'Anurati-Regular.otf', sans-serif;
+	font-family: 'Anurati-Regular.otf';
 }
 html,body{
 	margin:0;
@@ -113,7 +113,7 @@ input[type="date"]{
 #titlename {
 	text-align: center;
 	color: black;
-	font-family: "Lucida Console", Monaco, monospace;
+	font-family: "Anurati-Regular.otf";
 	font-variant: small-caps;
 	font-size: 100px;
 	margin:0;
