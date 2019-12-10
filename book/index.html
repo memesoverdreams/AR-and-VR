@@ -41,7 +41,7 @@ grecaptcha.execute('6Ld-PIUUAAAAAEJYze-W9mHuhw_5RciQOXq3g1T_', {action: 'action_
             alert("Please select a product.")
         }    
     </script>
-        <h2>Which Model</h2>
+        <h2>Which Model?</h2>
     <div class="flex-container">
         <select id="escape-room-select" class="select label-input-container tworow" required>
             <option value="Select">Select</option>
@@ -51,7 +51,6 @@ grecaptcha.execute('6Ld-PIUUAAAAAEJYze-W9mHuhw_5RciQOXq3g1T_', {action: 'action_
             <option value="Escaping Isolation" data-hours="1">Option 4</option>
             <option value="Illusory" data-hours="0.75">Option 5</option>
         </select>
-        <input class="label-input-container tworow" type="date" name="date" required>
     </div>
     <h2>Your Information</h2>
     <div class="flex-container">
@@ -84,7 +83,7 @@ grecaptcha.execute('6Ld-PIUUAAAAAEJYze-W9mHuhw_5RciQOXq3g1T_', {action: 'action_
         </div>
     </div>
         <label>Date of Birth</label>
-    <input type="date" name="date" required>
+    <input type="date" name="date" width="50%" required>
     <script>
         var age = document.getElementById.value;
         if (age < 18){
