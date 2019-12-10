@@ -1,6 +1,10 @@
 * {
-	font-family: 'Anurati-Regular.otf';
+	@font-face {
+    font-family: 'Anurati';
+    src: url('Anurati-Regular.otf')
 }
+}
+
 html,body{
 	margin:0;
 	padding: 0;
