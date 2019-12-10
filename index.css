@@ -113,7 +113,7 @@ input[type="date"]{
 #titlename {
 	text-align: center;
 	color: black;
-	font-family: '', serif;
+	font-family: "Lucida Console", Monaco, monospace;
 	font-variant: small-caps;
 	font-size: 100px;
 	margin:0;
