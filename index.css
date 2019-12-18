@@ -96,14 +96,14 @@ input[type="date"]{
 	position: absolute;
 	display: block;
 	height: 100%;
-	background-color: #0099ff;
+	background-color: green;
 	transition: width 0.5s;
 }
 .button:hover::after, input[type="submit"]:hover::after{
 	width: 100% !important;
 }
 .button.light, input[type="submit"].light{
-	color: #222 !important;
+	color: #0099ff !important;
 }
 .button.light:hover, input[type="submit"].light:hover{
 	color:yellow !important;
@@ -112,7 +112,7 @@ input[type="date"]{
 	background-color: white !important;
 }
 .button.light::after, input[type="submit"].light::after{
-	background-color: #222 !important;
+	background-color: #0099ff !important;
 }
 #titlename {
 	text-align: center;
