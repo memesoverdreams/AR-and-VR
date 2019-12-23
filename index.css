@@ -52,8 +52,8 @@ a.navlink{
 }
 a.navlink:hover {
 	text-decoration: none;
-	color: #222;
-	background-color: yellow;
+	color: #ffffff;
+	background-color: #0099ff;
 }
 .button, input[type="submit"]{
 	padding: 14px;
