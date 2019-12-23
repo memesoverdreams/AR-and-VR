@@ -118,7 +118,7 @@ input[type="date"]{
 #titlename {
 	text-align: center;
 	color: black;
-	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+	font-family: "Trebuchet MS", sans-serif;
 	font-variant: small-caps;
 	font-size: 100px;
 	margin:0;
