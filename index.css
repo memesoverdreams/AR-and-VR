@@ -118,7 +118,7 @@ input[type="date"]{
 #titlename {
 	text-align: center;
 	color: black;
-	font-family: 'Orbitron', sans-serif;
+	font-family: 'Orbitron';
 	font-variant: small-caps;
 	font-size: 100px;
 	margin:0;
