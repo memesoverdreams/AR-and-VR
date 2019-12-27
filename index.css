@@ -5,6 +5,14 @@
 }
 }
 
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #222222;
+  color: white;
+  font-size: 30px;
+}
+
 html,body{
 	margin:0;
 	padding: 0;
