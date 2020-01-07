@@ -75,6 +75,7 @@ a.navlink:hover {
 	margin-bottom: 10px;
 	font-size:22px;
 	transition: color 0.5s, background 0.5s;
+	border-radius: 50%;
 }
 .button, input[type="submit"],select, option{
 	cursor: pointer;
