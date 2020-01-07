@@ -21,12 +21,15 @@ h1{
 	font-family: 'Orbitron', sans-serif;
 	font-size: 50px;
 	margin-top: 10px;
+	color: white;
 }
 h2{
 	margin-top: 16px;
+	color: white;
 }
 p{
 	margin: 10px 0;
+	color: white;
 }
 body {
 	background-color: #080808;
