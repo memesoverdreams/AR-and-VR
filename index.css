@@ -1,8 +1,4 @@
 <style>
-body {
-	font-family: 'Orbitron';
-	background-color: #080808;
-}
 
 .overlay {
   height: 100%;
@@ -80,6 +76,11 @@ p{
 	margin: 10px 0;
 	color: #cccccc;
 
+}
+
+body {
+	background-color: #080808;
+	background-size: cover;
 }
 
 nav{
