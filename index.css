@@ -1,6 +1,3 @@
-* {
-
-}
 <style>
 body {
 	font-family: 'Orbitron';
@@ -83,10 +80,7 @@ p{
 	color: #cccccc;
 
 }
-body {
-	background-color: #080808;
-	background-size: cover;
-}
+
 nav{
 	text-align: center;
 	background-color: #222;
