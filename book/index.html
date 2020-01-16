@@ -25,6 +25,9 @@ grecaptcha.execute('6Ld-PIUUAAAAAEJYze-W9mHuhw_5RciQOXq3g1T_', {action: 'action_
         }
         .selectMenu{
             margin-right: 350;
+        }   
+        .RegularWhiteText{
+            color: white;
         }    
     </style>
 </head>
@@ -62,15 +65,15 @@ grecaptcha.execute('6Ld-PIUUAAAAAEJYze-W9mHuhw_5RciQOXq3g1T_', {action: 'action_
     <h2>Your Information</h2>
     <div class="flex-container">
         <div class="label-input-container tworow">
-            <label>First Name</label>
+            <label class="RegularWhiteText">First Name</label>
             <input class="" name="First name" type="text" id="require" required><br>
         </div>
         <div class="label-input-container tworow">
-            <label>Last Name</label>
+            <label class="RegularWhiteText">Last Name</label>
             <input class="" name="Last name" type="text" id="require" required>
         </div>
     </div>
-     <label>How many products? (Only 10 per order)</label>
+     <label class="RegularWhiteText">How many products? (Only 10 per order)</label>
     <input class="tworow" type="number" name="number" id="number" onchange="handleChange(this);"></input>
     <script>
   function handleChange(input) {
@@ -81,15 +84,15 @@ grecaptcha.execute('6Ld-PIUUAAAAAEJYze-W9mHuhw_5RciQOXq3g1T_', {action: 'action_
     <h2>Contact Information</h2>
     <div class="flex-container">
         <div class="label-input-container tworow">
-            <label>E-Mail Address</label>
+            <label class="RegularWhiteText">E-Mail Address</label>
             <input name="e-mail address" type="email" required>
         </div>
         <div class="label-input-container tworow">
-            <label>Phone Number</label>
+            <label class="RegularWhiteText">Phone Number</label>
             <input name="phone number" type="text" required>
         </div>
     </div>
-        <label>Date of Birth</label>
+        <label class="RegularWhiteText">Date of Birth</label>
     <input type="date" name="date" class="tworow" required>
     <script>
         var age = document.getElementById.value;
