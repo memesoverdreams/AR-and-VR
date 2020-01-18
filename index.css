@@ -5,14 +5,15 @@
 }
 
 .column {
+  position: fixed;
+  left: 30px;
   float: left;
   width: 30.33%;
   padding: 5px;
 }
 
 .row::after {
-  position: fixed;
-  left: 30px;
+  
   content: "";
   clear: both;
   display: table;
