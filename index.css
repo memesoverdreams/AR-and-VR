@@ -11,6 +11,8 @@
 }
 
 .row::after {
+  position: fixed;
+  left: 30px;
   content: "";
   clear: both;
   display: table;
