@@ -5,10 +5,8 @@
 }
 
 .column {
-  position: fixed;
-  left: 30px;
   float: left;
-  width: 30.33%;
+  width: 33.33%;
   padding: 5px;
 }
 
